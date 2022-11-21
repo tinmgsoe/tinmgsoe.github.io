@@ -582,6 +582,7 @@ display: flex;
 
         .self{
             font-size: small;
+	    margin-right: 15px;
             padding: 90px;
             font-style: italic;
             font-family: papyrus;
