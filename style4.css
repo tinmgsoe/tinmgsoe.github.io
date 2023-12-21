@@ -392,6 +392,11 @@ display: flex;
         font-size: 30px;
      }
 
+.navbar ul li:first-child {
+        display: none; /* Hide the first list item (Home) */
+    }
+	
+
 	.navbar ul li{
         font-size: 12px;
         font-weight:bold;
