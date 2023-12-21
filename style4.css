@@ -391,11 +391,15 @@ display: flex;
      .header-text h1{
         font-size: 30px;
      }
+
+	
      .navbar ul li{
-        font-size: 8px;
-        padding:2px 0;
+        font-size: 12px;
+        white-space: nowrap; 
         font-weight:bold;
  }
+
+	
     .about-col-1 img{
         display: block;
         margin-left: auto;
