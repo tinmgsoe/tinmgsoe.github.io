@@ -9,8 +9,6 @@ body{
     color: white;
 }
 
-
-
 #header{
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -18,10 +16,8 @@ body{
     background-size: 45%;
     width:100%;
     height: 100vh;
-    background-image: url(images/background1.gif)
-    
+    background-image: url(images/background1.gif) 
 }
-
 
 .navbar{
     display: flex;
@@ -79,23 +75,6 @@ body{
 
 }
 
-.music-col p{
-    font-size: 18px;
-    color: silver;
-    font-weight: 400;
-}
-
-#icon{
-    width:70px;
-    cursor: pointer;
-}
-
-
-
-
-
-
-
 #about{
     padding: 80px 0;
     color: #ABABAB;
@@ -112,7 +91,8 @@ body{
 }
 
 .about-col-1 img{
-    width: 100%;
+    width: 90%;
+    border-radius: 10px;
 }
 
 .about-col-2{
@@ -374,6 +354,24 @@ display: flex;
 	background: rgba(0, 0, 0, 0.08);
 }
 
+.download-cv {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.download-cv:hover {
+    background-color: #2980b9;
+}
+
+
+
+
+
+
 
 @media only screen and (max-width:600px){
     #header{
@@ -535,6 +533,20 @@ display: flex;
             .button__icon {
                 font-size: 1.5em;
                 background: rgba(0, 0, 0, 0.08);
+            }
+            
+            .download-cv {
+                background-color: #3498db;
+                color: #fff;
+                padding: 8px 12px;
+                text-decoration: none;
+                border-radius: 5px;
+                font-weight: bold;
+                display: inline-block; 
+            }
+            
+            .download-cv:hover {
+                background-color: #2980b9;
             }
             
 
