@@ -392,12 +392,11 @@ display: flex;
         font-size: 30px;
      }
 
-	.navbar ul li {
-        font-size: 8px; 
-        line-height: 1.5; 
-        white-space: nowrap; 
-        transform: none !important; 
-    }
+	.navbar ul li{
+        font-size: 12px;
+        font-weight:bold;
+        white-space: nowrap;
+	}
 
 	
     .about-col-1 img{
