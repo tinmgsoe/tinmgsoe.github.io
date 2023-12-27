@@ -117,6 +117,12 @@ color: #1DA1F2;
 
 }
 
+#leaderboard {
+    margin: 0 auto; /* This centers the table horizontally */
+    width: 99%; /* Adjust the width as needed */
+    margin-top: 50px; /* Add some top margin for spacing */
+  }
+
 
 </style>
 </head>
@@ -167,7 +173,7 @@ color: #1DA1F2;
             var $list = $("#cryptocurrencies");
             $list.find(".cryptocurrency").remove();
             cryptocurrencies = [];
-            for(let i = 0; i<20; i++){
+            for(let i = 0; i<30; i++){
                 cryptocurrencies.push(
                     {
                         name: data[i].name,
