@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> 
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="weather-container">
+        <h1>Weather Forecast</h1>
+        <p>Current Weather</p>
+
+        <div id="location"></div>
+        <div id="temperature"></div>
+        <div id="description"></div>
+        <div id="icon"></div>
+        <input type="text" id="cityInput" placeholder="Enter city">
+        <button id="getWeatherButton" onclick="getWeatherByCity()">Get Weather</button>
+        <button id="downloadAppButton">Download Weather App</button>
+        <!-- New element for extended forecast -->
+        <p>Forecast for upcoming days</p>
+        <div id="extendedForecast"></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
